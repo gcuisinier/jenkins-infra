@@ -1,0 +1,6 @@
+# Commands to start on workspace startup
+tasks:
+  - init: bundle install
+
+image:
+  file: .gitpod.Dockerfile
